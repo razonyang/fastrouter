@@ -14,7 +14,7 @@ FastRouter also provides some useful features, such as **grouping** and **middle
 
 # Features
 
-**Fast**: See [Benchmark](#benchamrk)
+**Fast**: See [Benchmark](#benchmark)
 
 **Flexible**: FastRouter export some useful options for you:
 - TrailingSlashesPolicy: there are four policies available:
@@ -30,10 +30,10 @@ FastRouter also provides some useful features, such as **grouping** and **middle
 **Compatible**: FastRouter is an implementation of http.Handler, so it is compatible with third-party packages.
 
 **Middleware**: Middleware is a chaining tool for chaining `http.Handler`,
- see [Middleware example](https://godoc.org/github.com/razonyang/fastrouter#example_Middleware).
+ see [Middleware](https://godoc.org/github.com/razonyang/fastrouter#Middleware).
 
 **Grouping**: Grouping is an useful feature of FastRouter, it allows to nest and specify middleware of group,
- see [Grouping example](https://godoc.org/github.com/razonyang/fastrouter#example_Router_Group).
+ see [Grouping](https://godoc.org/github.com/razonyang/fastrouter#Router.Group).
 
 
 # Documentation
@@ -43,12 +43,12 @@ See [Documentation](https://godoc.org/github.com/razonyang/fastrouter)
 
 # Examples
 
-- [Basic example](https://godoc.org/github.com/razonyang/fastrouter#example_)
-- [Grouping example](https://godoc.org/github.com/razonyang/fastrouter#example_Router_Group)
-- [Middleware example](https://godoc.org/github.com/razonyang/fastrouter#example_Middleware)
-- [Serve static files example](https://godoc.org/github.com/razonyang/fastrouter#example_Router_ServeFiles)
+- [Basic example](https://godoc.org/github.com/razonyang/fastrouter#example-package)
+- [Grouping example](https://godoc.org/github.com/razonyang/fastrouter#example-Router-Group)
+- [Middleware example](https://godoc.org/github.com/razonyang/fastrouter#example-Middleware)
+- [Serve static files example](https://godoc.org/github.com/razonyang/fastrouter#example-Router-ServeFiles)
 
-See [Examples](https://godoc.org/github.com/razonyang/fastrouter#pkg-examples) for details.
+See [Examples](https://godoc.org/github.com/razonyang/fastrouter#example-package) for details.
 
 # Benchmark
 
