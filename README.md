@@ -2,7 +2,7 @@
 
 FastRouter is a fast, flexible HTTP router written in Go.
 
-FastRouter exports options to custom router, such as `TrailingSlashesPolicy`, `PanicHandler`, `OptionsHandler`,
+FastRouter contains some customizable options, such as `TrailingSlashesPolicy`, `PanicHandler`, `OptionsHandler`,
  `MethodNotAllowedHandler`, `NotFoundHandler` and so on.
 
 FastRouter also provides some useful features, such as **grouping** and **middleware**.
@@ -16,8 +16,8 @@ FastRouter also provides some useful features, such as **grouping** and **middle
 
 **Fast**: See [Benchmark](#benchmark)
 
-**Flexible**: FastRouter export some useful options for you:
-- TrailingSlashesPolicy: there are four policies available:
+**Flexible**: FastRouter provides some customizable options for you:
+- TrailingSlashesPolicy:
     - IgnoreTrailingSlashes: ignore trailing slashes.
     - AppendTrailingSlashes: append trailing slashes and redirect if request path is not end with '/'.
     - RemoveTrailingSlashes: remove trailing slashes and redirect if request path is end with '/'.
