@@ -14,7 +14,7 @@ FastRouter also provides some useful features, such as **grouping** and **middle
 
 # Features
 
-**Fast**: See [Benchmark](#benchmark)
+**Fast**: See [Go Web Framework Benchmark](https://github.com/razonyang/go-web-framework-benchmark)
 
 **Flexible**: FastRouter provides some customizable options for you:
 - TrailingSlashesPolicy:
@@ -49,7 +49,3 @@ See [Documentation](https://godoc.org/github.com/razonyang/fastrouter)
 - [Serve static files example](https://godoc.org/github.com/razonyang/fastrouter#example-Router-ServeFiles)
 
 See [Examples](https://godoc.org/github.com/razonyang/fastrouter#example-package) for details.
-
-# Benchmark
-
-![Benchmark](https://github.com/razonyang/go-web-framework-benchmark/raw/master/benchmark.png)
